@@ -1,0 +1,97 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?024701c05ccffbfb5b8ad76205b28749") format("truetype"),
+url("./flaticon.woff?024701c05ccffbfb5b8ad76205b28749") format("woff"),
+url("./flaticon.woff2?024701c05ccffbfb5b8ad76205b28749") format("woff2"),
+url("./flaticon.eot?024701c05ccffbfb5b8ad76205b28749#iefix") format("embedded-opentype"),
+url("./flaticon.svg?024701c05ccffbfb5b8ad76205b28749#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "book-1": "\f101",
+    "book": "\f102",
+    "check": "\f103",
+    "chemistry": "\f104",
+    "clipboard": "\f105",
+    "email": "\f106",
+    "envelope": "\f107",
+    "globe": "\f108",
+    "maps-and-flags": "\f109",
+    "mortarboard": "\f10a",
+    "online-learning": "\f10b",
+    "quote": "\f10c",
+    "searching": "\f10d",
+    "skype": "\f10e",
+    "star": "\f10f",
+    "teacher": "\f110",
+    "user": "\f111",
+    "wall-clock": "\f112",
+);
+
+.flaticon-book-1:before {
+    content: map-get($flaticon-map, "book-1");
+}
+.flaticon-book:before {
+    content: map-get($flaticon-map, "book");
+}
+.flaticon-check:before {
+    content: map-get($flaticon-map, "check");
+}
+.flaticon-chemistry:before {
+    content: map-get($flaticon-map, "chemistry");
+}
+.flaticon-clipboard:before {
+    content: map-get($flaticon-map, "clipboard");
+}
+.flaticon-email:before {
+    content: map-get($flaticon-map, "email");
+}
+.flaticon-envelope:before {
+    content: map-get($flaticon-map, "envelope");
+}
+.flaticon-globe:before {
+    content: map-get($flaticon-map, "globe");
+}
+.flaticon-maps-and-flags:before {
+    content: map-get($flaticon-map, "maps-and-flags");
+}
+.flaticon-mortarboard:before {
+    content: map-get($flaticon-map, "mortarboard");
+}
+.flaticon-online-learning:before {
+    content: map-get($flaticon-map, "online-learning");
+}
+.flaticon-quote:before {
+    content: map-get($flaticon-map, "quote");
+}
+.flaticon-searching:before {
+    content: map-get($flaticon-map, "searching");
+}
+.flaticon-skype:before {
+    content: map-get($flaticon-map, "skype");
+}
+.flaticon-star:before {
+    content: map-get($flaticon-map, "star");
+}
+.flaticon-teacher:before {
+    content: map-get($flaticon-map, "teacher");
+}
+.flaticon-user:before {
+    content: map-get($flaticon-map, "user");
+}
+.flaticon-wall-clock:before {
+    content: map-get($flaticon-map, "wall-clock");
+}
